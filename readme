@@ -1,0 +1,45 @@
+# Sensorimotor Control in Virtual Reality
+
+**Authors**  
+Junxiao Long, Emma F. Marx, Yuxin Lin, Chenghan Xie, Sudiksha Reddy Sura, Anshul Rohit Panchal, Tansu Celikel
+
+This repository contains the codebase for the **Sensorimotor Control in Virtual Reality** experiment conducted by the **NeuroLoops Lab at Georgia Tech**.
+
+The intellectual property and interpretation rights of this project belong to the **NeuroLoops Lab, Georgia Institute of Technology**.
+
+⚠️ **Note:** This repository does **not include any experimental data**. If access to the original dataset is required, please contact the original authors.
+
+## 1. Environment Setup
+
+Please use **conda** to configure the virtual environment. The required dependencies are listed in `environment.yml`.
+
+```bash
+conda env create -f environment.yml
+conda activate smtrl
+```
+
+After installing the environment, navigate to the source folder and run:
+
+```bash
+pip install -e .
+```
+
+This installs the package in editable mode so that the modules inside `smtrl` can be properly imported.
+
+## 2. Repository Structure
+
+- **data/**  
+  Stores participant data from different experimental phases. Place the corresponding participant data under `data/phase1/` and specify the correct phase when running the analysis.
+
+- **smtrl/**  
+  Contains the core source code used for data processing, modeling, and analysis.
+
+- **notebooks/**  
+  Jupyter notebooks for different stages of the analysis and experimental results.
+
+- **output/**  
+  Stores generated figures and key outputs.
+
+## 3. Data Availability
+
+This repository does not distribute any experimental data. Please contact the original authors for access to the dataset if required.

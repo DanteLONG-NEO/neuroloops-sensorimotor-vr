@@ -1,0 +1,20 @@
+name: SMCtrl
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  - numpy
+  - pandas
+  - bottleneck
+  - numexpr
+  - sympy
+  - networkx
+
+  - matplotlib
+
+  - pytorch
